@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+            <ion-item>
+              <ion-label floating>Destination</ion-label>
+              <ion-input type="text" [(ngModel)]="destination1"></ion-input>
+            </ion-item>
+          </ion-list>
+         <button ion-button full (click)="click()">Get Go</button>
+         <button ion-button full (click)="clickpop()">Get POP</button>
+  <div id="map"></div>
+</ion-content>
